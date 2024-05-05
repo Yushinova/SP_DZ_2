@@ -28,7 +28,7 @@ namespace FindWord
                 string[]abs = text.Trim().Split(' ','.',',','\n');
                 foreach (var item in abs)
                 {
-                    Console.WriteLine(item);
+                    //Console.WriteLine(item);
                     if (item == word) count++;
                 }
             }
